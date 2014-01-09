@@ -865,7 +865,7 @@ static NSTimeInterval durationToAnimate(CGFloat pointsToAnimate, CGFloat velocit
 }
 
 - (BOOL)shouldAutomaticallyForwardAppearanceMethods {
-    return NO;
+    return YES;
 }
 
 - (BOOL)automaticallyForwardAppearanceAndRotationMethodsToChildViewControllers {
